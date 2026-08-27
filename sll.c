@@ -8,7 +8,7 @@ typedef struct node
 node* init()
 {
 	node *head=NULL;
-	printf("head is initialized. Address of head is %p\n and value of head is %d\n",head,(void*)head);
+	printf("head is initialized. Address of head is %p\n and value of head is %p\n",head,(void*)head);
 	return head;
 }
 node* createnode(int value)
